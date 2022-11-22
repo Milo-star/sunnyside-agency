@@ -1,0 +1,48 @@
+@import "../import/variable.scss";
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+//Responsive Mobile
+@media screen and (max-width: 480px) {
+    .nav{
+        background-color: #4ABDF2;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .hamburger{
+        margin-left: 280px;
+    }
+
+    .orange{
+        width: 100%;
+        background-position: center;
+    }
+
+    h1{
+        position: absolute;
+        left: 0;
+        right: 0;
+        color: $white;
+        font-family: 'Fraunces', serif;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        padding-top: 20px;
+    }
+
+    .oeuf{
+        background-position: center;
+        width: 100%;
+        margin-top: -5px;
+    }
+
+  }
