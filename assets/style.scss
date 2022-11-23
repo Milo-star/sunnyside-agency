@@ -52,6 +52,8 @@ ul, li, ol{
         text-transform: uppercase;
         letter-spacing: 6px;
         padding-top: 20px;
+        max-width: 250px;
+        margin-left: 115px;
     }
 
 
@@ -67,7 +69,7 @@ ul, li, ol{
         margin-top: 40px;
         margin-bottom: 40px;
         font-family: 'Fraunces', serif;
-        text-align: center;
+        text-align: $center;
         
     }
 
@@ -84,7 +86,7 @@ ul, li, ol{
     }
 
     .bouton-learn{
-        text-align: center;
+        text-align: $center;
         margin-bottom: 40px;
         text-decoration: underline 5px $yellow;
     }
@@ -92,7 +94,7 @@ ul, li, ol{
     //Smoothie
 
     .smoothie{
-        background-position: center;
+        background-position: $center;
         width: 100%;
     }
 
@@ -100,7 +102,7 @@ ul, li, ol{
         margin-top: 40px;
         margin-bottom: 40px;
         font-family: 'Fraunces', serif;
-        text-align: center;
+        text-align: $center;
         
     }
 
@@ -123,7 +125,7 @@ ul, li, ol{
 
     //Cerise
     .cerise{
-        background-position: center;
+        background-position: $center;
         width: 100%;
         height: 510px;
     }
@@ -173,7 +175,7 @@ ul, li, ol{
     
     // Emily
     .emily{
-        border-radius: 50%;
+        border-radius: $moitier;
         margin-top: 50px;
     }
 
@@ -200,7 +202,7 @@ ul, li, ol{
 
     //Thomas
     .thomas{
-        border-radius: 50%;
+        border-radius: $moitier;
         margin-top: 50px;
     }
 
@@ -227,7 +229,7 @@ ul, li, ol{
 
     // Jennie
     .jennie{
-        border-radius: 50%;
+        border-radius: $moitier;
         margin-top: 50px;
     }
 
@@ -344,6 +346,16 @@ ul, li, ol{
 
         }
     }
+
+    h1{
+        position: absolute;
+        left: 0;
+        right: 0;
+        color: $white;
+        font-family: 'Fraunces', serif;
+        text-transform: uppercase;
+        letter-spacing: 7px;
+    }
     
     .hamburger{
         display: none;
@@ -360,7 +372,8 @@ ul, li, ol{
     // Avis
     .avis{
 
-
+        padding-bottom: 50px;
+        
         h3{
             padding-top: 150px;
             color: $grey;
@@ -369,7 +382,7 @@ ul, li, ol{
         }
 
         img{
-            border-radius: 50%;
+            border-radius: $moitier;
             margin: 50px;
         }
     }

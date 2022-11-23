@@ -38,6 +38,8 @@ ul, li, ol {
     text-transform: uppercase;
     letter-spacing: 6px;
     padding-top: 20px;
+    max-width: 250px;
+    margin-left: 115px;
   }
   .oeuf {
     background-position: center;
@@ -277,12 +279,24 @@ ul, li, ol {
     padding: 20px;
     border-radius: 30px;
   }
+  h1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: white;
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+  }
   .hamburger {
     display: none;
   }
   .orange {
     background-position: center;
     width: 100%;
+  }
+  .avis {
+    padding-bottom: 50px;
   }
   .avis h3 {
     padding-top: 150px;
