@@ -258,10 +258,15 @@ ul, li, ol {
     background-color: #3cbfff;
     margin-bottom: 0;
     margin-left: -10vw;
+    font-family: "Barlow";
   }
   .nav img {
     width: 15vw;
     height: 100%;
+    margin-top: 40px;
+  }
+  .nav .liste {
+    margin-top: 50px;
   }
   .navigation {
     display: flex;
@@ -272,12 +277,17 @@ ul, li, ol {
     color: white;
     font-family: "Barlow";
     font-weight: bold;
+    font-size: large;
   }
   .navigation .contact {
     color: black;
     background-color: white;
     padding: 20px;
     border-radius: 30px;
+  }
+  .navigation .contact:hover {
+    background-color: lightblue;
+    color: black;
   }
   h1 {
     position: absolute;
