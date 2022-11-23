@@ -29,6 +29,13 @@ ul, li, ol{
         padding: 15px;
     }
 
+    .arrow{
+        position: absolute;
+        left: 50%;
+        top: 18%;
+        height: 70px;
+    }
+
     .navigation{
         display: none;
     }
@@ -367,6 +374,14 @@ ul, li, ol{
         font-family: 'Fraunces', serif;
         text-transform: uppercase;
         letter-spacing: 7px;
+        margin-top: 130px;
+    }
+
+    .arrow{
+        position: absolute;
+        left: 50%;
+        top: 8%;
+        height: 150px;
     }
     
     .hamburger{
@@ -380,6 +395,7 @@ ul, li, ol{
 
 
     //Photos
+
 
     // Avis
     .avis{
