@@ -238,15 +238,15 @@ ul, li, ol {
     width: 90%;
   }
 }
-.nav {
-  background-color: red;
-}
-
-.hamburger {
-  display: none;
-}
-
-.orange {
-  background-position: center;
-  height: 400px;
+@media screen and (min-width: 481px) {
+  .nav {
+    background-color: red;
+  }
+  .hamburger {
+    display: none;
+  }
+  .orange {
+    background-position: center;
+    height: 500px;
+  }
 }/*# sourceMappingURL=style.css.map */
