@@ -79,7 +79,7 @@ ul, li, ol{
         font-family: 'Barlow', sans-serif;
     }
 
-    .div2{
+    .container2{
         background-color: $white;
     }
 
@@ -354,18 +354,25 @@ ul, li, ol{
         width: 100%;
     }
 
-    .oeuf{
-        width: 100%;
-        background-position: $center;
-    }
+
+    //Photos
 
     // Avis
-    .div6{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+    .avis{
 
+
+        h3{
+            padding-top: 150px;
+            color: $grey;
+            letter-spacing: 5px;
+            font-family: 'Fraunces', serif;
+        }
+
+        img{
+            border-radius: 50%;
+            margin: 50px;
+        }
+    }
 
 
     // 4 Photos

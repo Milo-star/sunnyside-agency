@@ -57,7 +57,7 @@ ul, li, ol {
     padding-left: 70px;
     font-family: "Barlow", sans-serif;
   }
-  .div2 {
+  .container2 {
     background-color: white;
   }
   .bouton-learn {
@@ -284,14 +284,15 @@ ul, li, ol {
     background-position: center;
     width: 100%;
   }
-  .oeuf {
-    width: 100%;
-    background-position: center;
+  .avis h3 {
+    padding-top: 150px;
+    color: #808397;
+    letter-spacing: 5px;
+    font-family: "Fraunces", serif;
   }
-  .div6 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  .avis img {
+    border-radius: 50%;
+    margin: 50px;
   }
   .fourpictures {
     display: flex;
