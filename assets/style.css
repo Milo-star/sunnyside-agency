@@ -239,14 +239,50 @@ ul, li, ol {
   }
 }
 @media screen and (min-width: 481px) {
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden;
+  }
   .nav {
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3cbfff;
+    margin-bottom: 0;
+    margin-left: -10vw;
+  }
+  .nav img {
+    width: 15vw;
+    height: 100%;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+  }
+  .navigation li {
+    margin: 30px;
+    color: white;
+    font-family: "Barlow";
+    font-weight: bold;
+    size: 18px;
+  }
+  .navigation .contact {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
   }
   .hamburger {
     display: none;
   }
   .orange {
     background-position: center;
-    height: 500px;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
