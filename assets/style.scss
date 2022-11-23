@@ -334,18 +334,16 @@ ul, li, ol{
             color: $white;
             font-family: 'Barlow';
             font-weight: bold;
-            size: 18px;
         }
 
         .contact{
             color: black;
-            background-color: white;
+            background-color: $white;
             padding: 20px;
             border-radius: 30px;
 
         }
     }
-
     
     .hamburger{
         display: none;
@@ -354,6 +352,67 @@ ul, li, ol{
     .orange{
         background-position: $center;
         width: 100%;
+    }
+
+    .oeuf{
+        width: 100%;
+        background-position: $center;
+    }
+
+    // Avis
+    .div6{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+
+    // 4 Photos
+    .fourpictures{
+        display:flex;
+        flex-direction: row;
+        justify-items:center;
+        align-content:center;
+        line-height:0;
+
+        img{
+           width:25vw; 
+           height:30vw;
+           object-fit:cover;
+        }
+    }
+
+    // Footer
+    footer{
+        background-color: $footer-color;
+        padding: 40px;
+
+    }
+
+    .footer__links--primary{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        li{
+            padding-top: 30px;
+            margin: 30px;
+
+            a{
+                color: $footer-texte;
+            }
+
+        }
+    }
+
+    .footer__links--secondary{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 20px;
+        li{
+            margin: 20px;
+        }
     }
     
 }

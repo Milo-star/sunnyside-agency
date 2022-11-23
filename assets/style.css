@@ -270,7 +270,6 @@ ul, li, ol {
     color: white;
     font-family: "Barlow";
     font-weight: bold;
-    size: 18px;
   }
   .navigation .contact {
     color: black;
@@ -284,5 +283,52 @@ ul, li, ol {
   .orange {
     background-position: center;
     width: 100%;
+  }
+  .oeuf {
+    width: 100%;
+    background-position: center;
+  }
+  .div6 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .fourpictures {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-content: center;
+    line-height: 0;
+  }
+  .fourpictures img {
+    width: 25vw;
+    height: 30vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  footer {
+    background-color: #90D4C6;
+    padding: 40px;
+  }
+  .footer__links--primary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer__links--primary li {
+    padding-top: 30px;
+    margin: 30px;
+  }
+  .footer__links--primary li a {
+    color: #458D7E;
+  }
+  .footer__links--secondary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+  }
+  .footer__links--secondary li {
+    margin: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
